@@ -7,7 +7,7 @@
         
         {{-- Ảnh phim --}}
         <div class="col-4 text-center">
-            <img src="{{ $movie->image_link }}" 
+            <img src="{{ asset('storage/'.$movie->image) }}"
                  style="width:250px; height:350px; object-fit:cover; border-radius:10px;">
         </div>
 

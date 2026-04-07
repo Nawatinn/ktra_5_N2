@@ -115,7 +115,7 @@
 
     <div class="card-custom">
         <div class="position-relative mb-4">
-            <a href="{{route('moviecreate')}}" class="btn btn-success position-absolute start-0">
+            <a href="{{url('/them-phim')}}" class="btn btn-success position-absolute start-0">
                 + Thêm
             </a>
             <h3 class="text-center m-0">DANH SÁCH PHIM</h3>
@@ -143,7 +143,7 @@
                 @foreach($data as $row)
                 <tr>
                     <td>
-                        <img src="{{$row->image_link}}" width="60">
+                        <img src="{{ asset('storage/'.$row->image) }}" width="60">
                     </td>
 
                     <td>{{$row->movie_name_vn}}</td>
