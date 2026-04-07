@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>{{$title}}</title>
         <link rel="stylesheet" href="{{asset('library/bootstrap.min.css')}}">
@@ -125,4 +126,5 @@
          </div>
         </main>
     </body>
+
 </html>
